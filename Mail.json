@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"LogName": "Mail Letters",
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"LizHan.GusWedding": "{{i18n:Mail.GusWeddingGift}}%item id (O)729 5 %%[#]{{i18n:Mail.GusWelcomeName}}",
+				"LizHan.MarnieWedding": "{{i18n:Mail.MarnieWeddingGift}}%item id (O)645 5 %%[#]",
+				"LizHan.MorrisWedding": "{{i18n:Mail.MorrisWeddingGift}}%item id (O)475 10 %%[#]",
+				"LizHan.WillyWedding": "{{i18n:Mail.WillyWeddingGift}}%item id (O)265 2 %%[#]",
+				"LizHan.RasWedding": "{{i18n:Mail.RasWeddingGift}}%item id (O)688 5 %%[#]",
+				"LizHan.LinusWedding": "{{i18n:Mail.LinusWeddingGift}}%item id (O)242 2 %%[#]",
+				"LizHan.EvelynWedding": "{{i18n:Mail.EvelynWeddingGift}}%item id (O)220 2 %%[#]",
+				"LizHan.ClintWedding": "{{i18n:Mail.ClintWeddingGift}}%item id (O)334 5 %%[#]",
+				"LizHan.JodiWedding": "{{i18n:Mail.JodiWeddingGift}}%item id (O)231 2 %%[#]",
+				"LizHan.PierreWedding": "{{i18n:Mail.PierreWeddingGift}}%item id (O)474 10 %%[#]",
+				"LizHan.RobinWedding": "{{i18n:Mail.RobinWeddingGift}}%item id (BC)BigChest 2 %%[#]",
+				"LizHan.MaruWedding": "{{i18n:Mail.MaruWeddingGift}}%item id (O)166 2 %%[#]",
+				"LizHan.DemetriusWedding": "{{i18n:Mail.DemetriusWeddingGift}}%item id (O)918 15 %%[#]",
+				"LizHan.HarveyWedding": "{{i18n:Mail.HarveyWeddingGift}}%item id (O)349 2 %%[#]",
+				"LizHan.EmilyWedding": "{{i18n:Mail.EmilyWeddingGift}}%item id (O)241 2 %%[#]",
+				"LizHan.HaleyWedding": "{{i18n:Mail.HaleyWeddingGift}}%item id (O)221 2 %%[#]",
+				"LizHan.AbigailWedding": "{{i18n:Mail.AbigailWeddingGift}}%item id (O)476 10 %%[#]",
+				"LizHan.SamWedding": "{{i18n:Mail.SamWeddingGift}}%item id (O)731 2 %%[#]",
+				"LizHan.ShaneWedding": "{{i18n:Mail.ShaneWeddingGift}}%item id (O)206 2 %%[#]",
+				"LizHan.PennyWedding": "{{i18n:Mail.PennyWeddingGift}}%item id (O)230 2 %%[#]",
+				"LizHan.VincentWedding": "{{i18n:Mail.VincentWeddingGift}}%item id (O)330 20 %%[#]",
+				"LizHan.AlexWedding": "{{i18n:Mail.AlexWeddingGift}}%item id (O)212 2 %%[#]",
+				"LizHan.SebWedding": "{{i18n:Mail.SebWeddingGift}}%item id (O)236 2 %%[#]",
+				"LizHan.CarolineWedding": "{{i18n:Mail.CarolineWeddingGift}}%item id (O)433 10 %%[#]",
+				"LizHan.GeorgeWedding": "{{i18n:Mail.GeorgeWeddingGift}}%item id (O)205 2 %%[#]",
+				"LizHan.MarlonWedding": "{{i18n:Mail.MarlonWeddingGift}}%item id (O)244 2 %%[#]",
+				"LizHan.JasWedding": "{{i18n:Mail.JasWeddingGift}}%item id (O)382 30 %%[#]",
+				"LizHan.PamWedding": "{{i18n:Mail.PamWeddingGift}}%item id (BC)12 2 %%[#]",
+				"Pierre4HeartsAtWedding": null,
+				"WeddingGiftsProcessed": "Congrats on your big day! ^ I hope you enjoy your gifts. Here's a gift from me to you.%item id (O)433 10 %%[#]"
+			}
+		}
+	]
+}

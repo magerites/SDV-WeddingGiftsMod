@@ -1,0 +1,353 @@
+{
+    "Changes": [
+        {
+            "LogName": "Mail Triggers",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_LizHan.SnapshotGusHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotGusHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Gus 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Gus4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotMarnieHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotMarnieHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Marnie 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Marnie4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotMorrisHearts": {
+                    "Id": "SnapshotMorrisHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Morris 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Morris4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotWillyHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotWillyHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Willy 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Willy4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotRasHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotRasHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Wizard 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Wizard4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotLinusHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotLinusHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Linus 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Linus4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotEvelynHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotEvelynHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Evelyn 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Evelyn4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotClintHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotClintHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Clint 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Clint4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotJodiHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotJodiHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Jodi 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Jodi4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotPierreHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotPierreHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Pierre 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Pierre4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotRobinHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotRobinHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Robin 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Robin4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotMaruHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotMaruHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Maru 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Maru4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotDemetriusHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotDemetriusHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Demetrius 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Demetrius4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotHarveyHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotHarveyHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Harvey 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Harvey4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotEmilyHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotEmilyHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Emily 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Emily4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotHaleyHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotHaleyHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Haley 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Haley4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotAbigailHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotAbigailHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Abigail 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Abigail4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotSamHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotSamHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Sam 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Sam4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotShaneHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotShaneHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Shane 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Shane4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotPennyHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotPennyHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Penny 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Penny4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotVincentHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotVincentHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Vincent 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Vincent4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotAlexHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotAlexHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Alex 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Alex4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotSebastianHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotSebastianHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Sebastian 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Sebastian4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotCarolineHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotCarolineHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Caroline 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Caroline4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotGeorgeHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotGeorgeHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current George 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current George4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotMarlonHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotMarlonHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Marlon 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Marlon4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotJasHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotJasHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Jas 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Jas4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.SnapshotPamHearts": {
+                    "Id": "{{ModId}}_LizHan.SnapshotPamHearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, PLAYER_HEARTS Current Pam 4, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current Pam4HeartsAtWedding received"
+                },
+                "{{ModId}}_LizHan.GusWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.GusWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Gus4HeartsAtWedding received",
+                    "Action": "AddMail Current LizHan.GusWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.MarnieWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.MarnieWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Marnie4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.MarnieWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.MorrisWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.MorrisWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Morris4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.MorrisWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.WillyWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.WillyWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Willy4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.WillyWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.RasWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.RasWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Ras4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.RasWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.LinusWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.LinusWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Linus4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.LinusWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.JodiWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.JodiWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Jodi4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.JodiWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.PierreWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.PierreWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Pierre4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.PierreWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.RobinWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.RobinWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Robin4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.RobinWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.MaruWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.MaruWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Maru4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.MaruWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.DemetriusWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.DemetriusWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Demetrius4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.DemetriusWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.HarveyWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.HarveyWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Harvey4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.HarveyWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.EmilyWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.EmilyWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Emily4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.EmilyWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.HaleyWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.HaleyWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Haley4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.HaleyWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.AbigailWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.AbigailWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Abigail4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.AbigailWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.SamWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.SamWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Sam4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.SamWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.ShaneWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.ShaneWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Shane4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.MaruWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.PennyWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.PennyWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Penny4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.PennyWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.VincentWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.VincentWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Vincent4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.VincentWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.AlexWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.AlexWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Alex4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.AlexWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.SebWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.SebWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Sebastian4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.SebWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.CarolineWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.CarolineWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Caroline4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.CarolineWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.GeorgeWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.GeorgeWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current George4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.GeorgeWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.MarlonWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.MarlonWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Marlon4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.MarlonWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.JasWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.JasWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Jas4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.JasWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.EvelynWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.EvelynWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Evelyn4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.EvelynWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.ClintWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.ClintWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Clint4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.ClintWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.PamWeddingGift": {
+                    "Id": "{{ModId}}_LizHan.PamWeddingGift",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_MAIL current Pam4HeartsAtWedding",
+                    "Action": "AddMail Current LizHan.PamWedding tomorrow"
+                },
+                "{{ModId}}_LizHan.WeddingGiftsProcessed": {
+                    "Id": "{{ModId}}_LizHan.WeddingGiftsProcessed",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current any Married, !PLAYER_HAS_MAIL current WeddingGiftsProcessed received",
+                    "Action": "AddMail current WeddingGiftsProcessed received"
+                }
+            }
+            }
+    ]
+}
