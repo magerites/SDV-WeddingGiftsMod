@@ -1,0 +1,10 @@
+{
+    "Name": "Wedding Gift Mod",
+    "Author": "lizhan (dialogue and coding)",
+    "Description": "Adds mail and a gift from NPCs over 4 hearts upon marriage",
+    "Version": "1.0.0",
+    "UniqueID": "lizhan.weddinggiftmod",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

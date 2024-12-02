@@ -1,0 +1,10 @@
+{
+	"Format": "2.0.0", 
+	"Changes": [
+		{
+			"LogName": "Mail Letters",
+			"Action": "Include",
+			"FromFile": "Data/ItemData/Mail.json, Data/ItemData/TriggerActions.json"
+		}
+	]
+}	
